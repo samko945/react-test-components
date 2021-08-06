@@ -6,7 +6,7 @@ import PageMargin from "../UI/PageMargin";
 export default function Nav() {
 	return (
 		<nav>
-			<PageMargin style={{ alignItems: "space-around" }}>
+			<PageMargin style={{ alignItems: "flex-end" }}>
 				<ul>
 					<li>
 						<a href="/">Home</a>
@@ -17,8 +17,12 @@ export default function Nav() {
 					<li>
 						<a href="/contact">Contact</a>
 					</li>
-					<Button style={{ margin: "0 0.25rem" }}>Register</Button>
-					<Button style={{ margin: "0 0.25rem" }}>Sign in</Button>
+					<li>
+						<Button style={{ margin: "0 0.25rem" }}>Sign up</Button>
+					</li>
+					<li>
+						<Button style={{ margin: "0 0.25rem" }}>Login</Button>
+					</li>
 				</ul>
 			</PageMargin>
 		</nav>

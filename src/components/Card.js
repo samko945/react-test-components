@@ -2,5 +2,5 @@ import React from "react";
 import "./Card.css";
 
 export default function Card(props) {
-	return <div className="Card">{props.children}</div>;
+	return <article className="Card">{props.children}</article>;
 }

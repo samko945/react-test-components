@@ -1,9 +1,11 @@
 .Card {
 	background-color: rgb(255, 255, 255);
 	padding: 2rem;
-	margin: 1rem;
+	/* margin: 0.5rem; */
+	line-height: 1.35rem;
 	width: 35ch;
-	/* max-width: 35ch; */
+	/* max-width: 35ch;
+	min-width: 25ch; */
 	box-shadow: 0 2px 5px 0 rgba(100, 100, 100, 0.3);
 	border-radius: 1rem;
 }
